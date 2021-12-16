@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Section from '../Section';
+
 const Info = () => {
 	return (
-		<div>
-			인포 페이지
-		</div>
+		<>
+			<Section />
+		</>
 	);
 };
 
