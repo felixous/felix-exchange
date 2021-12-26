@@ -53,4 +53,5 @@ export default createGlobalStyle`
 		color: inherit; 
 		background: none; 
 	}
+	.hidden { overflow: hidden; position: absolute; width: 1px; height: 1px; font-size: 1px; border: 0; white-space: nowrap; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); }
 `

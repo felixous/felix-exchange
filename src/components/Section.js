@@ -10,7 +10,7 @@ const ContentSection = styled.section`
 	& .section-main { padding: 0 0 0 40px; }
 `;
 
-const Section = () => {
+const Section = ({ children }) => {
 	const [title, setTitle] = useState('섹션 타이틀');
 	const [notice, setNotice] = useState('기준일 2021/12/07');
 
@@ -21,7 +21,7 @@ const Section = () => {
 				<span className="notice">{notice}</span>
 			</div>
 			<div className="section-main">
-				섹션 메인
+				{children}
 			</div>
 		</ContentSection>
 	);
